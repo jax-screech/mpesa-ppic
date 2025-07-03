@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Story Viewer UI</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black text-white min-h-screen font-sans">
+
+  <!-- Horizontal Story Slider -->
+  <div class="flex overflow-x-auto space-x-4 p-4">
+    <div class="relative w-24 h-40 flex-shrink-0 bg-cover bg-center rounded-lg" style="background-image: url('https://via.placeholder.com/150')">
+      <span class="absolute bottom-1 left-1 text-xs bg-black bg-opacity-60 px-2 py-1 rounded">👁 230</span>
+    </div>
+    <div class="relative w-24 h-40 flex-shrink-0 bg-cover bg-center rounded-lg" style="background-image: url('https://via.placeholder.com/150/000000/FFFFFF?text=Diogo')">
+      <span class="absolute bottom-1 left-1 text-xs bg-black bg-opacity-60 px-2 py-1 rounded">👁 440</span>
+    </div>
+    <div class="relative w-24 h-40 flex-shrink-0 bg-cover bg-center rounded-lg" style="background-image: url('https://via.placeholder.com/150/FF0000/FFFFFF?text=Game')">
+      <span class="absolute bottom-1 left-1 text-xs bg-black bg-opacity-60 px-2 py-1 rounded">👁 300</span>
+    </div>
+  </div>
+
+  <!-- Tabs -->
+  <div class="flex justify-around border-b border-gray-700 text-sm">
+    <button class="py-2 px-4 border-b-2 border-white">👥 440</button>
+    <button class="py-2 px-4 text-gray-400">📊 Stats</button>
+  </div>
+
+  <!-- Viewers List -->
+  <div class="p-4 space-y-4">
+    <div class="flex items-center justify-between">
+      <div class="flex items-center space-x-3">
+        <img class="w-10 h-10 rounded-full" src="https://via.placeholder.com/100" alt="">
+        <div>
+        <p class="text-sm font-bold flex items-center">
+            liverpoolfc
+            <svg xmlns="http://www.w3.org/2000/svg" class="ml-1 w-4 h-4" viewBox="0 0 24 24" fill="#3897f0">
+                <circle cx="12" cy="12" r="10" fill="#3897f0"/>
+                <path d="M10.5 13.5l2 2 4-4" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </p>
+          <p class="text-xs text-gray-400">liverpoolfootballclub</p>
+        </div>
+      </div>
+      <button class="text-blue-500">📨</button>
+    </div>
+    <div class="flex items-center justify-between">
+      <div class="flex items-center space-x-3">
+        <img class="w-10 h-10 rounded-full" src="https://via.placeholder.com/100" alt="">
+        <div>
+          <p class="text-sm font-bold">joe1hunnid</p>
+          <p class="text-xs text-gray-400">Joe</p>
+        </div>
+      </div>
+      <button class="text-blue-500">📨</button>
+    </div>
+
+    <!-- Repeat for other users -->
+    <div class="flex items-center justify-between">
+      <div class="flex items-center space-x-3">
+        <img class="w-10 h-10 rounded-full" src="https://via.placeholder.com/100" alt="">
+        <div>
+          <p class="text-sm font-bold">lachrymacava</p>
+          <p class="text-xs text-gray-400">Jay 🤘🏾</p>
+        </div>
+      </div>
+      <button class="text-blue-500">📨</button>
+    </div>
+
+    <div class="flex items-center justify-between">
+      <div class="flex items-center space-x-3">
+        <img class="w-10 h-10 rounded-full" src="https://via.placeholder.com/100" alt="">
+        <div>
+          <p class="text-sm font-bold">hot_to_be_spicy</p>
+          <p class="text-xs text-gray-400">Yvonne Safarine</p>
+        </div>
+      </div>
+      <button class="text-blue-500">📨</button>
+    </div>
+
+    <div class="flex items-center justify-between">
+      <div class="flex items-center space-x-3">
+        <img class="w-10 h-10 rounded-full" src="https://via.placeholder.com/100" alt="">
+        <div>
+          <p class="text-sm font-bold">g1rlhefunny</p>
+          <p class="text-xs text-gray-400">Joel</p>
+        </div>
+      </div>
+      <button class="text-blue-500">📨</button>
+    </div>
+  </div>
+
+</body>
+</html>
