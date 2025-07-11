@@ -9,16 +9,24 @@
   <body class="bg-black text-white font-sans flex flex-col h-screen">
     <!-- Chat container -->
     <div class="max-w-md mx-auto flex flex-col h-full w-full">
-      <!-- Header -->
-      <div class="flex items-center space-x-3 p-4 bg-zinc-900">
-        <img
-          src="https://upload.wikimedia.org/wikipedia/en/e/e3/Playboi_Carti_-_Whole_Lotta_Red.png"
-          alt="Carti Profile"
-          class="w-10 h-10 rounded-full"
-        />
-        <div>
-          <h1 class="font-semibold">playboicarti</h1>
-          <p class="text-xs text-gray-400">Active now</p>
+      
+      <!-- Header & Info -->
+      <div class="bg-zinc-900 p-4">
+        <div class="flex items-center space-x-3">
+          <img
+            src="assets/download (1).jpeg"
+            alt="Carti Profile"
+            class="w-10 h-10 rounded-full"
+          />
+          <div>
+            <h1 class="font-semibold">playboicarti</h1>
+            <p class="text-xs text-gray-400">Active now</p>
+          </div>
+        </div>
+        <div class="mt-3 text-xs text-gray-500 space-y-1 ml-20">
+          <p>13M followers · 3 posts</p>
+          <p>You've followed this account since 2023</p>
+          <p>You both follow opium.00pium</p>
         </div>
       </div>
 
@@ -34,7 +42,7 @@
         <!-- Carti messages -->
         <div class="flex justify-start">
           <div class="bg-zinc-800 px-4 py-2 rounded-2xl max-w-xs">
-            thank you homixi homixi 🦋
+            thanks lil bra
           </div>
         </div>
 
@@ -54,9 +62,15 @@
 
       <!-- Keyboard input section -->
       <div class="bg-zinc-900 p-3 border-t border-zinc-800">
-        <div class="flex items-center space-x-2 fixed-bottom">
-          <!-- Emoji icon -->
-          <button class="text-xl">😊</button>
+        <div class="flex items-center space-x-3">
+          <!-- Emoji Icon -->
+          <button class="text-gray-400">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+              viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M14.828 14.828a4 4 0 01-5.656 0m9.9-9.9a9 9 0 11-12.728 0 9 9 0 0112.728 0zM9 10h.01M15 10h.01" />
+            </svg>
+          </button>
 
           <!-- Input -->
           <input
@@ -65,8 +79,17 @@
             class="flex-1 bg-zinc-800 text-white placeholder-gray-400 px-4 py-2 rounded-full outline-none"
           />
 
-          <!-- Image icon -->
-          <button class="text-xl">📎</button>
+          <!-- Image Icon -->
+          <button class="text-gray-400">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+              viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M16.24 7.76a4 4 0 010 5.66l-6.6 6.6a4 4 0 01-5.66-5.66l6.6-6.6a2 2 0 112.83 2.83L8.83 14.83a1 1 0 001.41 1.41l6.6-6.6a4 4 0 00-5.66-5.66l-6.6 6.6" />
+            </svg>
+          </button>
+
+          <!-- Send Icon -->
+          <button class="text-xl text-blue-500">➤</button>
         </div>
       </div>
     </div>
