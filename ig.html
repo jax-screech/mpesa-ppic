@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Instagram Chat with Playboi Carti</title>
+  </head>
+  <body class="bg-black text-white font-sans flex flex-col h-screen">
+    <!-- Chat container -->
+    <div class="max-w-md mx-auto flex flex-col h-full w-full">
+      <!-- Header -->
+      <div class="flex items-center space-x-3 p-4 bg-zinc-900">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/en/e/e3/Playboi_Carti_-_Whole_Lotta_Red.png"
+          alt="Carti Profile"
+          class="w-10 h-10 rounded-full"
+        />
+        <div>
+          <h1 class="font-semibold">playboicarti</h1>
+          <p class="text-xs text-gray-400">Active now</p>
+        </div>
+      </div>
+
+      <!-- Chat messages -->
+      <div class="flex-1 overflow-y-auto p-4 space-y-2 bg-zinc-900 text-sm">
+        <!-- Your message -->
+        <div class="flex justify-end">
+          <div class="bg-blue-600 px-4 py-2 rounded-2xl max-w-xs">
+            Yo Carti I love your music fr 🔥
+          </div>
+        </div>
+
+        <!-- Carti messages -->
+        <div class="flex justify-start">
+          <div class="bg-zinc-800 px-4 py-2 rounded-2xl max-w-xs">
+            thank you homixi homixi 🦋
+          </div>
+        </div>
+
+        <div class="flex justify-start">
+          <div class="bg-zinc-800 px-4 py-2 rounded-2xl max-w-xs">
+            u tryna be on my next song?
+          </div>
+        </div>
+
+        <!-- Your reply -->
+        <div class="flex justify-end">
+          <div class="bg-blue-600 px-4 py-2 rounded-2xl max-w-xs">
+            bro no way 😭 yes!! when we starting?
+          </div>
+        </div>
+      </div>
+
+      <!-- Keyboard input section -->
+      <div class="bg-zinc-900 p-3 border-t border-zinc-800">
+        <div class="flex items-center space-x-2 fixed-bottom">
+          <!-- Emoji icon -->
+          <button class="text-xl">😊</button>
+
+          <!-- Input -->
+          <input
+            type="text"
+            placeholder="Message..."
+            class="flex-1 bg-zinc-800 text-white placeholder-gray-400 px-4 py-2 rounded-full outline-none"
+          />
+
+          <!-- Image icon -->
+          <button class="text-xl">📎</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
